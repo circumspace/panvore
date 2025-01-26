@@ -10,6 +10,7 @@ on:
   pull_request:
     branches:
       - main
+      - fix-compose
     paths-ignore:
       - 'apple/**'
       - 'android/**'
