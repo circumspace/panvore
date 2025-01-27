@@ -4,8 +4,6 @@ WORKDIR /app
 
 ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
 
-# ADD ../wait-for-it.sh wait-for-it.sh
-# RUN chmod +x wait-for-it.sh
 RUN apt-get update && apt-get install -y g++ make python3 && apt-get clean && rm -rf /var/lib/apt/lists/*
 COPY package.json yarn.lock tsconfig.json .prettierrc .eslintrc ./
 COPY packages ./packages
