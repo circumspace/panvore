@@ -103,7 +103,7 @@ export function LandingFooter(): JSX.Element {
               </a>
             </li>
             <li>
-              <a href="https://github.com/omnivore-app/omnivore/blob/main/SECURITY.md">
+              <a href="https://github.com/circumspace/panvore/blob/main/SECURITY.md">
                 Security
               </a>
             </li>
@@ -126,7 +126,7 @@ export function LandingFooter(): JSX.Element {
               <a href="https://blog.omnivore.app">Blog</a>
             </li>
             <li>
-              <a href="https://github.com/omnivore-app/omnivore">GitHub</a>
+              <a href="https://github.com/circumspace/panvore">GitHub</a>
             </li>
           </FooterList>
         </VStack>

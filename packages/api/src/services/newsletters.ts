@@ -114,7 +114,7 @@ const createRandomEmailAddress = (userName: string, length: number): string => {
   when rand is abcdef: jacksonh-abcdefe@inbox.omnivore.app
    */
   return `${userName}-${nanoid(length)}e@${
-    env.email.domain || `@${inbox}.omnivore.app`
+    env.email.domain || `@${inbox}.panvore.app`
   }`
 }
 

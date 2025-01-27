@@ -113,4 +113,4 @@ export const search = async (
 }
 
 export const highlightUrl = (slug: string, highlightId: string): string =>
-  `https://omnivore.app/me/${slug}#${highlightId}`
+  `https://panvore.app/me/${slug}#${highlightId}`

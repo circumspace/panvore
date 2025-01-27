@@ -21,7 +21,7 @@ import app.omnivore.omnivore.core.designsystem.component.TextPreferenceWidget
 import app.omnivore.omnivore.feature.onboarding.OnboardingViewModel
 import app.omnivore.omnivore.navigation.Routes
 
-internal const val RELEASE_URL = "https://github.com/omnivore-app/omnivore/releases"
+internal const val RELEASE_URL = "https://github.com/circumspace/panvore/releases"
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
@@ -100,4 +100,3 @@ fun SettingsViewContent(
         }
     }
 }
-
