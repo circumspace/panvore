@@ -28,5 +28,5 @@ jobs:
           docker push ghcr.io/circumspace/backend:${GITHUB_SHA}
       - name: Build the content-fetch docker image
         run: |
-          docker build --file packages/content-fetch/Dockerfile . --tag "ghcr.io/circumspace/content-fetch:${GITHUB_SHA}" --tag ghcr.io/circumspace/content-fetch:latest
-          docker push ghcr.io/circumspace/content-fetch:${GITHUB_SHA}
+          docker build --file packages/content-fetch/Dockerfile . --tag "ghcr.io/omnivore-app/content-fetch:${GITHUB_SHA}" --tag ghcr.io/omnivore-app/content-fetch:latest
+          docker push ghcr.io/omnivore-app/content-fetch:${GITHUB_SHA}
