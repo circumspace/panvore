@@ -28,7 +28,7 @@
     "axios": "^1.4.0",
     "dotenv": "^16.0.1",
     "image-size": "^1.0.2",
-    "jsonwebtoken": "^8.5.1",
+    "jsonwebtoken": "^9.0.2",
     "linkedom": "^0.14.26"
   },
   "volta": {
