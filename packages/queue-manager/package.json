@@ -28,7 +28,7 @@
     "@sentry/serverless": "^7.77.0",
     "axios": "^1.4.0",
     "dotenv": "^16.0.1",
-    "jsonwebtoken": "^8.5.1"
+    "jsonwebtoken": "^9.0.2"
   },
   "volta": {
     "extends": "../../package.json"
