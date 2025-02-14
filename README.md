@@ -1,5 +1,9 @@
 # ~~Omnivore~~ Panvore
 
+## Update on the Panvore fork
+
+Since it seems that [Omnivore](https://github.com/omnivore-app/omnivore/) is still being somewhat maintained, I'll stop working on this fork for now and will use upstream to selfhost my own instance.
+
 [![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/omnivore-app/omnivore/run-tests.yaml?branch=main)](https://github.com/omnivore-app/omnivore/actions/workflows/run-tests.yaml)
 ![GitHub](https://img.shields.io/github/license/circumspace/omnivore)
 
