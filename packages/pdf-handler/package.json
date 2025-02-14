@@ -32,11 +32,11 @@
     "@google-cloud/storage": "^7.0.1",
     "@omnivore/utils": "1.0.0",
     "@sentry/serverless": "^7.77.0",
-    "axios": "^0.27.2",
+    "axios": "^0.28.0",
     "bullmq": "^5.1.4",
     "concurrently": "^7.0.0",
     "dotenv": "^8.2.0",
-    "pdfjs-dist": "^2.16.105"
+    "pdfjs-dist": "^4.2.67"
   },
   "volta": {
     "extends": "../../package.json"
